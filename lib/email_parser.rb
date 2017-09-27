@@ -15,6 +15,7 @@ class EmailParser
     array = @email_list.split(" ")
     if !@email_list.include?(emails)
       array << emails
+    end
   end
 
 end
