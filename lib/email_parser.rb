@@ -6,6 +6,10 @@
 class EmailParser
 
 
+  def initialize (email_list)
+    @email_list = email_list
+  end
+
   def parse(csv)
     email_array = csv.parse(" , ")
   end
