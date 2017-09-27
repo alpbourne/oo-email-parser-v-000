@@ -12,7 +12,9 @@ class EmailParser
   end
 
   def parse
-    array = @email_list.split(" ").delete_if{|x| x.empty?}
+    array = @email_list.split(" ")
+    if !@email_list.include?(emails)
+      array << emails
   end
 
 end
