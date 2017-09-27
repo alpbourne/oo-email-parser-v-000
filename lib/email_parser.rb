@@ -8,4 +8,6 @@ class EmailParser
 
   def parse(csv)
     email_array = filename.split(" , ")
+  end
+  
 end
