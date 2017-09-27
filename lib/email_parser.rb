@@ -10,8 +10,8 @@ class EmailParser
     @email_list = email_list
   end
 
-  def parse(csv)
-    @email_list = csv.parse(" , ")
+  def parse(email_list)
+    @email_list = email_list.parse(" , ")
   end
 
 end
