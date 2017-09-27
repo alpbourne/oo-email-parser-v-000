@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    array = @email_list.split(" ").uniqu
+    array = @email_list.split(" ").uniq
     array
   end
 
