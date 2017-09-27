@@ -15,7 +15,7 @@ class EmailParser
   end
 
   def parse
-    array = @email_list.split(" ")
+    array = EMAILS.split(" ")
   end
 
 end
