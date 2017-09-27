@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse(csv)
-    email_array = csv.parse(" , ")
+    @email_list = csv.parse(" , ")
   end
 
 end
